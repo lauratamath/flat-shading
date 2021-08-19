@@ -284,5 +284,5 @@ class Render(object):
 
 r = Render()
 r.glCreateWindow(1000,1000)
-r.load('./face.obj', (25, 25, 0), (15, 15, 15))
-r.glFinish('sr4.bmp')
+r.load('./face.obj', (25, 25, 25), (17, 15, 15))
+r.glFinish('sr4_2.bmp')
